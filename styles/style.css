@@ -1,0 +1,23 @@
+@import "../styles/blocks/header.css";
+
+@import "../styles/blocks/body.css";
+
+@import "../styles/blocks/nav.css";
+
+@import "../styles/blocks/info.css";
+
+@import "../styles/blocks/questions.css";
+
+@import "../styles/blocks/footer.css";
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
